@@ -5,23 +5,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*------LOGO------*/
+header div .logo-container{
+
+}
+.logo1 {
+    display: flex;
+    border-radius: 50px;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content: center;
+}
 
 /*------HEADER------*/
-/* header{
-    background-color: #c1ae9f;
+header {
+background-color: #C5BAAF;
 }
-header nav ul{
-    color:#000000;
-    list-style: none;
-}
-header nav ul li{
-    display: inline-block;
-    margin: 10px;
-}
-header nav ul li a{
-    text-decoration: none;
-    color: rgb(20, 12, 6);
-} */
+
 
 /*------MAIN INDEX-----*/
 .main-inicio{
@@ -270,7 +270,7 @@ footer .grilla .rs a img{
 @media screen and (max-width:1920px){
     .contenedor-index-dos .container-b .product-b{
         height: 1100px;
-        width: 865px;
+        width: 940px;
     }
     .main-inicio .contenedor-index-tres .container-c .product-c{
         height: 560px;
