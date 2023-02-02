@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+
 /*------reset------*/
 * {
   margin: 0;
@@ -201,7 +202,9 @@ header {
 
 /* ---------- MAIN LOCALES ---------- */
 .main-locales {
-  background-color: #c1ae9f;
+  background: url(../img/kid-skate.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .main-locales .locales-contenedor {
@@ -214,6 +217,71 @@ header {
   margin: 5px;
 }
 
+.main-locales .container-form .form-title{
+  font-weight: normal;
+  font-family: "mukta" sans-serif;
+  color: #fff;
+}
+.main-locales .container-form .form-title span{
+color: #fff;
+} 
+.form-title{
+
+}
+.form{
+  background: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+
+
+.main-locales .contenedor .label {
+  display: block;
+  color: rgba(255, 255, 255, 0.678);
+  font-size: 16px;
+  font-family: "Mukta", sans-serif;
+  position: relative;
+}
+
+
+.form-input, .form-texarea{
+  background-color: #00000056;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #ffff;
+  font-family: roboto;
+  resize: none;
+}
+.form-title{
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.664);
+}
+
+.form-submit{
+  background-color: #c1ae9f3a;
+  font-family: "Mukta", sans-serif;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.589);
+  transition: all 250ms ease;
+}
+
+.form-submit:hover{
+  background-color: #c1ae9f;
+  color: #fff;
+}
 /*------FOOTER------*/
 footer {
   background-color: #c1ae9f;
@@ -286,68 +354,81 @@ footer .grilla .rs a img {
     height: 1100px;
     width: 940px;
   }
+
   .main-inicio .contenedor-index-tres .container-c .product-c {
     height: 560px;
     width: 550px;
   }
 }
+
 @media screen and (max-width: 890px) {
   .contenedor-index-dos .container-b .product-b {
     height: 1000px;
     width: 765px;
   }
 }
+
 @media screen and (max-width: 790px) {
   .contenedor-index-dos .container-b .product-b {
     height: 900px;
     width: 665px;
   }
 }
+
 @media screen and (max-width: 690px) {
   .contenedor-index-dos .container-b .product-b {
     height: 800px;
     width: 565px;
   }
 }
+
 @media screen and (max-width: 570px) {
   .contenedor-index-dos .container-b .product-b {
     height: 700px;
     width: 465px;
   }
+
   .main-inicio .contenedor-index-tres .container-c .product-c {
     height: 470px;
     width: 450px;
   }
+
   footer .grilla .rs p {
     font-size: 1rem;
   }
 }
+
 @media screen and (max-width: 500px) {
   footer .grilla .rs p {
     font-size: 0.7rem;
   }
+
   footer .grilla .rs a {
     margin: 0 5px 0 5px;
   }
 }
+
 @media screen and (max-width: 470px) {
   .contenedor-index-dos .container-b .product-b {
     height: 550px;
     width: 340px;
   }
 }
+
 @media screen and (max-width: 460px) {
   .main-inicio .contenedor-index-tres .container-c .product-c {
     height: 440px;
     width: 400px;
   }
 }
+
 @media screen and (max-width: 420px) {
   .main-inicio .contenedor-index-tres .container-c .product-c {
     height: 400px;
     width: 350px;
   }
 }
+
 @media screen and (max-width: 370px) {
   .main-inicio .contenedor-index-tres .container-c .product-c {
     height: 350px;
