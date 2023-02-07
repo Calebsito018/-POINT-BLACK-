@@ -5,15 +5,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "mukta" sans-serif;
 }
 
 /*------LOGO------*/
-.logo1 {
+header .head-container-a .logo-container{
   display: flex;
-  border-radius: 50px;
-  margin-left: auto;
-  margin-right: auto;
   justify-content: center;
+}
+header .head-container-a .logo-container a .logo1 {
+  border-radius: 50px;
+  margin-top: 10px;
 }
 
 /*------HEADER------*/
@@ -126,6 +128,9 @@ header {
 .main-novedades {
   background-color: #c1ae9f;
 }
+.main-novedades .contenedor-novedades h2{
+  text-align: center;
+}
 
 .main-novedades .contenedor-novedades .product-nv-container {
   display: flex;
@@ -136,21 +141,39 @@ header {
 .main-novedades .contenedor-novedades .product-nv-container .product-nv {
   height: 350px;
   width: 310px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin: 2px;
+  position: relative;
+  border-radius: 14px;
+  margin: 20px 10px 20px 10px;
 }
 
 .main-novedades .contenedor-novedades .product-nv-container .product-nv img {
   height: 100%;
   width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 14px;
+}
+.main-novedades .contenedor-novedades .product-nv-container .product-nv .button-nov{
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: #000000;
+  padding: 1px;
+  background: rgba(197, 186, 175, 0.48);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
 }
 
 /* ---------- MAIN-HOMBRES ---------- */
 .main-hombres {
   background-color: #c1ae9f;
+}
+
+.main-hombres .contenedor-hombres h2{
+  text-align: center;
 }
 
 .main-hombres .contenedor-hombres .product-man-container {
@@ -162,21 +185,40 @@ header {
 .main-hombres .contenedor-hombres .product-man-container .product-man {
   height: 350px;
   width: 310px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin: 2px;
+  position: relative;
+  border-radius: 14px;
+  margin: 20px 10px 20px 10px;
 }
 
 .main-hombres .contenedor-hombres .product-man-container .product-man img {
   height: 100%;
   width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 14px;
 }
+
+.main-hombres .contenedor-hombres .product-man-container .product-man .button-hombres{
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: #000000;
+  padding: 1px;
+  background: rgba(197, 186, 175, 0.48);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  }
 
 /* ---------- MAIN-MUJERES ---------- */
 .main-mujeres {
   background-color: #c1ae9f;
+}
+
+.main-mujeres .contenedor-mujeres h2{
+  text-align: center;
 }
 
 .main-mujeres .contenedor-mujeres .product-women-container {
@@ -188,16 +230,32 @@ header {
 .main-mujeres .contenedor-mujeres .product-women-container .product-women {
   height: 350px;
   width: 310px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin: 2px;
+  position: relative;
+  border-radius: 14px;
+  margin: 20px 10px 20px 10px;
 }
 
 .main-mujeres .contenedor-mujeres .product-women-container .product-women img {
   height: 100%;
   width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 14px;
+}
+
+.main-mujeres .contenedor-mujeres .product-women-container .product-women .button-women{
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: #000000;
+  padding: 1px;
+  background: rgba(197, 186, 175, 0.48);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+
 }
 
 /* ---------- MAIN LOCALES ---------- */
@@ -206,15 +264,28 @@ header {
   background-size: cover;
   background-attachment: fixed;
 }
+.main-locales h1{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.663);
+}
 
 .main-locales .locales-contenedor {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .main-locales .locales-contenedor .iframe-container {
   margin: 5px;
+  border-radius: 15px;
+  width: 400px;
+  height: 380px;
+  margin: 20px 5px 20px 5px;
+}
+.main-locales .locales-contenedor .iframe-container iframe{
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
 }
 
 .main-locales .container-form .form-title{
@@ -225,9 +296,6 @@ header {
 .main-locales .container-form .form-title span{
 color: #fff;
 } 
-.form-title{
-
-}
 .form{
   background: rgba(0, 0, 0, 0.6);
   width: 90%;
@@ -274,6 +342,7 @@ color: #fff;
   padding: 5px;
   width: 100%;
   border-radius: 5px;
+  border: 0;
   color: rgba(255, 255, 255, 0.589);
   transition: all 250ms ease;
 }
