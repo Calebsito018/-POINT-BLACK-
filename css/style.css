@@ -8,6 +8,16 @@
   font-family: "mukta" sans-serif;
 }
 
+
+
+/*------HEADER------*/
+body{
+  background-color: rgba(197, 186, 175, 0.48);
+}
+header {
+
+  background-color: rgba(197, 186, 175, 0.48);
+}
 /*------LOGO------*/
 header .head-container-a .logo-container{
   display: flex;
@@ -17,22 +27,19 @@ header .head-container-a .logo-container a .logo1 {
   border-radius: 50px;
   margin-top: 10px;
 }
-
-/*------HEADER------*/
-header {
-  background-color: #C5BAAF;
+.collapse{
+  display: flex;
+  justify-content: center;
 }
+
 
 /*------MAIN INDEX-----*/
-.main-inicio {
-  background-color: #c1ae9f;
+.body-index{
+  background-color: #fefefe;
 }
 
-.main-inicio h1 {
-  font-size: 1.5rem;
-  text-align: center;
-  margin: 20px;
-  font-family: "Mukta", sans-serif;
+.main-inicio {
+  background-color: #fefefe;
 }
 
 .main-inicio .portada {
@@ -44,16 +51,74 @@ header {
   background-attachment: fixed;
   background-image: url("../img/group pic.jpg");
 }
-
-/*------PRODUCTOS 1 INDEX------*/
-.main-inicio .contenedor-index-uno .banner {
-  width: 100%;
-  height: auto;
+.main-inicio h1 {
+  font-size: 1.3rem;
+  color: #505050;
+  margin: 20px 0 15px 0;
+  padding: 10px;
+  text-align: center;
+}
+.main-inicio h2 {
+  font-size: 1.3rem;
+  color: #070707;
+  margin: 20px 0 15px 0;
+  padding: 10px;
+  text-align: center;
 }
 
-.main-inicio .contenedor-index-uno .banner a img {
+/*------PRODUCTOS 1 INDEX------*/
+.main-inicio h1{
+
+}
+.main-inicio h2{
+  font-size: 1.3rem;
+  color: #505050;
+  margin: 20px 0 15px 0;
+  padding: 10px;
+  text-align: center;
+}
+.main-inicio .contenedor-index-uno .container-a {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-inicio .contenedor-index-uno .container-a .product-a {
+  height: 460px;
+  width: 410px;
+  margin: 30px 5px 30px 5px;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main-inicio .contenedor-index-uno .container-a .product-a img {
+  height: 100%;
   width: 100%;
   object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main-inicio .contenedor-index-uno .container-a .product-a a {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: #000000;
+  padding: 1px;
+  background: rgba(197, 186, 175, 0.48);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  transition: all 0.3s;
+}
+.main-inicio .contenedor-index-uno .container-a .product-a a:hover{
+  background-color: black;
+  color: white;
 }
 
 /*------PRODUCTOS 2 INDEX------*/
@@ -76,16 +141,25 @@ header {
 
 .main-inicio .contenedor-index-dos .container-b .product-b a {
   text-decoration: none;
-  font-size: 1.2rem;
   position: absolute;
-  padding: 5px;
   bottom: 0;
-  right: 0;
   width: 100%;
+  left: 0;
   text-align: center;
-  background-color: rgba(193, 174, 159, 0.8156862745);
   color: #000000;
+  padding: 1px;
+  background: rgba(197, 186, 175, 0.48);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  transition: all 0.3s;
 }
+.main-inicio .contenedor-index-dos .container-b .product-b a:hover{
+  background-color: black;
+  color: white;
+}
+
 
 /*------PRODUCTOS 3 INDEX------*/
 .main-inicio .contenedor-index-tres .container-c {
@@ -113,22 +187,44 @@ header {
 
 .main-inicio .contenedor-index-tres .container-c .product-c a {
   text-decoration: none;
-  font-size: 1.2rem;
   position: absolute;
-  padding: 5px;
   bottom: 0;
-  right: 0;
   width: 100%;
+  left: 0;
   text-align: center;
-  background-color: rgba(193, 174, 159, 0.8156862745);
   color: #000000;
+  padding: 1px;
+  background: rgba(197, 186, 175, 0.48);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  transition: all 0.3s;
+}
+.main-inicio .contenedor-index-tres .container-c .product-c a:hover{
+  background-color: black;
+  color: white;
 }
 
 /* ---------- MAIN-NOVEDADES ---------- */
+.body-nv{
+  background-color: #fefefe;
+}
 .main-novedades {
-  background-color: #c1ae9f;
+  background-color: #fefefe;
+
+}
+.main-novedades .contenedor-novedades h1{
+  text-align: center;
+  margin: 30px;
+  font-size: 1.5rem;
+  color: #505050;
 }
 .main-novedades .contenedor-novedades h2{
+  font-size: 1.3rem;
+  color: #505050;
+  margin: 20px 0 15px 0;
+  padding: 10px;
   text-align: center;
 }
 
@@ -136,6 +232,8 @@ header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: #fefefe;
+
 }
 
 .main-novedades .contenedor-novedades .product-nv-container .product-nv {
@@ -144,6 +242,14 @@ header {
   position: relative;
   border-radius: 14px;
   margin: 20px 10px 20px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  transition: all 0.3s;
+}
+.main-novedades .contenedor-novedades .product-nv-container .product-nv:hover{
+  transform: scale(1.01);
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.178);
+  -webkit-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.288);
+  -moz-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.212);
 }
 
 .main-novedades .contenedor-novedades .product-nv-container .product-nv img {
@@ -165,14 +271,28 @@ header {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.2px);
   -webkit-backdrop-filter: blur(2.2px);
+  transition: all 0.3s;
+}
+.main-novedades .contenedor-novedades .product-nv-container .product-nv .button-nov:hover{
+  background-color: black;
+  color: white;
 }
 
 /* ---------- MAIN-HOMBRES ---------- */
+.body-man{
+  background-color: #fefefe;
+
+}
 .main-hombres {
-  background-color: #c1ae9f;
+  background-color: #fefefe;
+  
 }
 
 .main-hombres .contenedor-hombres h2{
+  font-size: 1.3rem;
+  color: #505050;
+  margin: 20px 0 15px 0;
+  padding: 10px;
   text-align: center;
 }
 
@@ -188,6 +308,14 @@ header {
   position: relative;
   border-radius: 14px;
   margin: 20px 10px 20px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  transition: all 0.3s;
+}
+.main-hombres .contenedor-hombres .product-man-container .product-man:hover{
+  transform: scale(1.01);
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.178);
+  -webkit-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.288);
+  -moz-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.212);
 }
 
 .main-hombres .contenedor-hombres .product-man-container .product-man img {
@@ -210,14 +338,27 @@ header {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.2px);
   -webkit-backdrop-filter: blur(2.2px);
+  transition: all 0.3s;
+  }
+  .main-hombres .contenedor-hombres .product-man-container .product-man .button-hombres:hover{
+    background-color: black;
+    color: white;
   }
 
 /* ---------- MAIN-MUJERES ---------- */
+.body-wm{
+  background-color: #fefefe;
+}
+
 .main-mujeres {
-  background-color: #c1ae9f;
+  background-color: #fefefe;
 }
 
 .main-mujeres .contenedor-mujeres h2{
+  font-size: 1.3rem;
+  color: #505050;
+  margin: 20px 0 15px 0;
+  padding: 10px;
   text-align: center;
 }
 
@@ -233,6 +374,14 @@ header {
   position: relative;
   border-radius: 14px;
   margin: 20px 10px 20px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  transition: all 0.3s;
+}
+.main-mujeres .contenedor-mujeres .product-women-container .product-women:hover{
+  transform: scale(1.01);
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.178);
+  -webkit-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.288);
+  -moz-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.212);
 }
 
 .main-mujeres .contenedor-mujeres .product-women-container .product-women img {
@@ -255,7 +404,11 @@ header {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.2px);
   -webkit-backdrop-filter: blur(2.2px);
-
+  transition: all 0.3s;
+}
+.main-mujeres .contenedor-mujeres .product-women-container .product-women .button-women:hover{
+  background-color: black;
+  color: white;
 }
 
 /* ---------- MAIN LOCALES ---------- */
@@ -336,24 +489,21 @@ color: #fff;
   color: rgba(255, 255, 255, 0.664);
 }
 
-.form-submit{
-  background-color: #c1ae9f3a;
-  font-family: "Mukta", sans-serif;
-  padding: 5px;
-  width: 100%;
-  border-radius: 5px;
-  border: 0;
-  color: rgba(255, 255, 255, 0.589);
-  transition: all 250ms ease;
+  .form-submit{
+    background-color: #00000056;
+    color: #ffff;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    transition: all 0.3s;
+}
+.form-submit:hover{
+  background-color: #000000d0;
 }
 
-.form-submit:hover{
-  background-color: #c1ae9f;
-  color: #fff;
-}
 /*------FOOTER------*/
 footer {
-  background-color: #c1ae9f;
+  background-color: rgba(197, 186, 175, 0.48);
 }
 
 footer .grilla {
@@ -371,7 +521,7 @@ footer .grilla .top {
 }
 
 footer .grilla .top a {
-  background-color: rgba(0, 0, 0, 0.2823529412);
+  background-color: rgba(197, 186, 175, 0.48);
   height: 100%;
   width: 100%;
   font-size: 1rem;
@@ -379,6 +529,11 @@ footer .grilla .top a {
   text-align: center;
   padding: 10px;
   text-decoration: none;
+  transition: all 0.3s;
+}
+footer .grilla .top a:hover{
+  background-color: black;
+  color: white;
 }
 
 footer .grilla .loguito {
@@ -424,7 +579,7 @@ footer .grilla .rs a img {
     width: 940px;
   }
 
-  .main-inicio .contenedor-index-tres .container-c .product-c {
+  .main-inicio .contenedor-index-tres .container-a .product-a {
     height: 560px;
     width: 550px;
   }
@@ -457,7 +612,7 @@ footer .grilla .rs a img {
     width: 465px;
   }
 
-  .main-inicio .contenedor-index-tres .container-c .product-c {
+  .main-inicio .contenedor-index-tres .container-a .product-a {
     height: 470px;
     width: 450px;
   }
@@ -485,21 +640,21 @@ footer .grilla .rs a img {
 }
 
 @media screen and (max-width: 460px) {
-  .main-inicio .contenedor-index-tres .container-c .product-c {
+  .main-inicio .contenedor-index-tres .container-a .product-a {
     height: 440px;
     width: 400px;
   }
 }
 
 @media screen and (max-width: 420px) {
-  .main-inicio .contenedor-index-tres .container-c .product-c {
+  .main-inicio .contenedor-index-tres .container-a .product-a {
     height: 400px;
     width: 350px;
   }
 }
 
 @media screen and (max-width: 370px) {
-  .main-inicio .contenedor-index-tres .container-c .product-c {
+  .main-inicio .contenedor-index-tres .container-a .product-a {
     height: 350px;
     width: 300px;
   }
